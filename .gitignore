@@ -1,0 +1,8 @@
+node_modules/
+node-debug.log
+dist/
+
+.*
+!.babelrc
+!.eslintrc
+!.gitignore
