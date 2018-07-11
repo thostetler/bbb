@@ -20,6 +20,7 @@
 		]
 	],
 	"plugins": [
-		["transform-react-jsx", { "pragma": "h" }]
+		["transform-react-jsx", { "pragma": "h" }],
+		"transform-flow-strip-types"
 	]
 }

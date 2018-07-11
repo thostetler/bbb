@@ -1,0 +1,10 @@
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/sass/utilities/functions';
+
+// set custom colors
+$blue: #4073dd;
+
+// set variables
+$primary: $blue;
+
+@import '~bulma';

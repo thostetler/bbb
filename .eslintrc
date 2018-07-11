@@ -3,25 +3,17 @@
     "airbnb-base",
     "plugin:prettier/recommended"
   ],
-  "env": {
-    "browser": true,
-    "amd": true,
-    "es6": false,
-    "commonjs": false,
-    "node": false
-  },
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "sourceType": "module"
-  },
+  "parser": "babel-eslint",
   "plugins": [
-    "requirejs"
+    "flowtype"
   ],
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": false
+    }
+  },
   "rules": {
     "prefer-arrow-callback": "off",
-    "import/no-amd": "off",
     "comma-dangle": "off",
     "object-shorthand": "off",
     "func-names": "off",
